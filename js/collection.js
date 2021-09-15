@@ -129,15 +129,3 @@ const sport = [{
 
     },
 ];
-
-function display() {
-    let info = "";
-    let date = "";
-    for (let i = 0; i < sport.length; i++) {
-        info = sport[i].name;
-        date = sport[i].birthDate;
-        console.log(info + " was born " + date);
-    }
-
-}
-display();

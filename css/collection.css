@@ -1,0 +1,47 @@
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pic {
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.privacy {
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+aside {
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 100%;
+    width: 400px;
+}
+
+header {
+    text-align: center;
+}
+
+aside,
+.privacy {
+    margin-top: 10%;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+}
