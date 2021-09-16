@@ -20,8 +20,8 @@ const sport = [{
         children: [' Gianna Maria-Onore Bryant', 'Natalia Diamante Bryant',
             'Bianka Bella Bryant', 'Capri Kobe Bryant'
         ],
-        competitionLeague: 'Premier League, football',
-        Team: 'Manchester United',
+        competitionLeague: 'NBA',
+        Team: 'Los Angeles Lakers',
         championships: '5',
 
     },
@@ -33,8 +33,8 @@ const sport = [{
         country: 'Portugal',
         spouse: 'Georgina Rodriguez',
         children: [' Cristiano Jr', ' Alana Martina dos Santos Aveiro', 'Eva Maria Dos Santos', 'Mateo Ronaldo'],
-        competitionLeague: 'NBA',
-        Team: 'Los Angeles Lakers',
+        competitionLeague: 'Premier League, football',
+        Team: 'Manchester United',
         championships: ['5x golden ball', '6x championships', '5x uefa cl', '1x european champion', '1x european nations league champion'],
     },
     {
