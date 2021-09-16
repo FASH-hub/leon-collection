@@ -1,3 +1,26 @@
+body {
+    background-image: url("../images/Lewis.jpg");
+    color: bisque;
+}
+
+header {
+    margin-left: 25%;
+}
+
+.bio a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.bio a:hover {
+    color: cornflowerblue;
+}
+
+img {
+    border-radius: 100%;
+    width: 400px;
+}
+
 article {
     display: flex;
     flex-direction: row;
@@ -6,36 +29,27 @@ article {
     width: 100%;
 }
 
-.pic {
-    width: 45%;
-    flex-wrap: wrap;
-}
-
 .privacy {
-    width: 30%;
+    width: 50%;
     flex-wrap: wrap;
 }
 
 aside {
-    width: 25%;
+    width: 50%;
     flex-wrap: wrap;
 }
 
-img {
-    border-radius: 100%;
-    width: 400px;
+.bio {
+    width: 50%;
 }
 
-header {
-    text-align: center;
-}
-
-aside,
-.privacy {
-    margin-top: 10%;
+.car {
+    width: 50%;
 }
 
 footer {
+    background-color: bisque;
+    color: cornflowerblue;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
