@@ -21,7 +21,10 @@ a {
 
 .bio a:hover {
     color: cornflowerblue;
+
 }
+
+
 
 img {
     border-radius: 100%;
@@ -48,6 +51,14 @@ aside {
 
 .bio {
     width: 50%;
+}
+
+.bio a {
+    background-color: beige;
+    color: brown;
+    padding: 2%;
+    border-radius: 40%;
+
 }
 
 .car {
