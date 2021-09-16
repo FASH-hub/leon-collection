@@ -64,15 +64,11 @@ const sport = [{
 
     },
     {
-        name: 'Usain Bolt',
+        name: 'Usain Bolt, Jamaican athlete',
         picture: 'images/Usain.jpg',
-        birthDate: '21/08/1986',
-        birthPlace: 'Sherwood Content',
-        country: 'Jamaïque',
+        birthDatePlace: '21/08/1986 in Sherwood Content, Jamaica',
         spouse: ' Kasi Bennett',
         children: ['Olympia Lightning Bolt', 'Thunder Bolt', 'Saint Leo Bolt'],
-        competitionLeague: 'Athletism, sprinter',
-        Team: 'solo',
         championships: '8x gold olympic medals',
 
     },

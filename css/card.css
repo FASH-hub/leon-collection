@@ -7,17 +7,19 @@ body {
 header {
     margin-left: 25%;
 }
+
 h1 {
     font-family: 'Courgette';
     font-weight: bold;
     font-size: 200%;
 }
- a {
+
+a {
     text-decoration: none;
     color: bisque;
 }
 
- .bio a:hover {
+.bio a:hover {
     color: cornflowerblue;
 }
 
@@ -51,16 +53,19 @@ aside {
 .car {
     width: 50%;
 }
-.home{
+
+.home {
     background-color: azure;
-  height: 40px;
-  padding: 1%;
-  border-radius: 10%; 
+    height: 40px;
+    padding: 1%;
+    border-radius: 10%;
 }
-.home a{
-    color : brown
+
+.home a {
+    color: brown
 }
-.home a:hover{
+
+.home a:hover {
     color: blueviolet;
 }
 
