@@ -4,4 +4,4 @@
 
 ![cover](images/readme.png)
 
-This project consists of putting in work the javascript dynimic tehnic. The html content is filled dynamically by the javascript.
+This project consists of putting in work the javascript dynamic tehnic, which provides html file and displays it's content dynamically. For this project, the home page is not concerned. Besides the javascript emphasize, css technics such as flex/box also being highlighted.
