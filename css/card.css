@@ -45,8 +45,9 @@ article {
 }
 
 aside {
-    width: 50%;
+    width: 40%;
     flex-wrap: wrap;
+
 }
 
 .bio {
@@ -62,7 +63,7 @@ aside {
 }
 
 .car {
-    width: 50%;
+    width: 30%;
 }
 
 .menu {
@@ -76,12 +77,12 @@ aside {
     border-radius: 10%;
 }
 
-.home a {
+.menu a {
     color: brown;
     padding: 2%;
 }
 
-.home a:hover {
+.menu a:hover {
     color: blueviolet;
 }
 
