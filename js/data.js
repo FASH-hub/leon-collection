@@ -35,7 +35,7 @@ const sport = [{
         children: [' Cristiano Jr', ' Alana Martina dos Santos Aveiro', 'Eva Maria Dos Santos', 'Mateo Ronaldo'],
         competitionLeague: 'Premier League, football',
         Team: 'Manchester United',
-        championships: ['5x golden ball', '6x championships', '5x uefa cl', '1x european champion', '1x european nations league champion'],
+        championships: ['5 golden ball', '6 championships', '5 uefa cl', '1 european champion', '1 european nations league champion'],
     },
     {
         name: 'Serena Williams',
@@ -60,16 +60,20 @@ const sport = [{
         children: [' Mateo Messi Roccuzzo', 'Ciro Messi Roccuzzo', 'Thiago Messi'],
         competitionLeague: 'Ligue 1, football',
         Team: 'Paris Saint Germain',
-        championships: ['6x golden ball', '10x championships', '4x uefa cl', '1x South American champion'],
+        championships: ['6 golden ball', '10 championships', '4 uefa cl', '1 South American champion'],
 
     },
     {
         name: 'Usain Bolt, Jamaican athlete',
-        picture: 'images/Usain.jpg',
-        birthDatePlace: '21/08/1986 in Sherwood Content, Jamaica',
+        picture: '../images/Usain.jpg',
+        birthDate: '21/08/1986',
+        birthPlace: 'Sherwood Content',
+        country: 'Jamaica .',
         spouse: ' Kasi Bennett',
         children: ['Olympia Lightning Bolt', 'Thunder Bolt', 'Saint Leo Bolt'],
-        championships: '8x gold olympic medals',
+        competitionLeague: 'Athletisme, sprint',
+        Team: 'Solo',
+        championships: '8 times gold olympic medals',
 
     },
     {
@@ -108,7 +112,7 @@ const sport = [{
         children: ' João de Assis Moreira',
         competitionLeague: 'Ligua, football',
         Team: 'Fc Barcelona',
-        championships: ['1x golden ball', '2x championships', '2x uefa cl', '1x South American champion', '1x world cup champion'],
+        championships: ['1 golden ball', '2 championships', '2 uefa cl', '1 South American champion', '1 world cup champion'],
 
     },
     {
