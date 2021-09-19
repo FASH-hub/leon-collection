@@ -100,4 +100,4 @@ function cardProvider() {
 
 
 }
-cardProvider()();
+cardProvider();

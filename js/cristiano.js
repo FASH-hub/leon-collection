@@ -13,7 +13,7 @@ function cardProvider() {
     let pPrivacy = document.createElement('p');
     let birthDetails = document.createTextNode('He was born on ' + sport[2].birthDate + ' in ' +
         sport[2].birthPlace + ' , ' + [sport[2].country]);
-    let family = document.createTextNode('He has a partner named ' + sport[2].spouse +
+    let family = document.createTextNode(' He has a partner named ' + sport[2].spouse +
         ' and he is father of ' + sport[2].children);
     pPrivacy.append(birthDetails, family);
     privacy.appendChild(pPrivacy);

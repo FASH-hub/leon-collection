@@ -30,6 +30,12 @@ img {
     width: 350px;
 }
 
+@media screen and (max-width: 400px) {
+    img {
+        width: 150px;
+    }
+}
+
 article {
     display: flex;
     flex-direction: row;
@@ -38,15 +44,33 @@ article {
     width: 100%;
 }
 
+@media screen and (max-width: 400px) {
+    article {
+        background: black;
+    }
+}
+
 .privacy {
     width: 50%;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 400px) {
+    .privacy {
+        width: 100%;
+    }
 }
 
 aside {
     width: 40%;
     flex-wrap: wrap;
 
+}
+
+@media screen and (max-width: 400px) {
+    aside {
+        width: 100%;
+    }
 }
 
 .bio {
@@ -76,6 +100,12 @@ aside {
     border-radius: 10%;
 }
 
+@media screen and (max-width: 400px) {
+    .menu {
+        display: inline-block;
+    }
+}
+
 .menu a {
     color: brown;
     padding: 2%;
@@ -96,4 +126,10 @@ footer {
     right: 0;
     position: fixed;
     bottom: 0;
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        display: none;
+    }
 }
