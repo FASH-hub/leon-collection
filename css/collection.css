@@ -25,6 +25,12 @@ main {
     padding: 5%;
 }
 
+@media screen and (max-width: 400px) {
+    main {
+        display: block;
+    }
+}
+
 a {
     text-decoration: none;
     color: darkblue;
