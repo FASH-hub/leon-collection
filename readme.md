@@ -6,4 +6,7 @@ Here are their names, nationality, their personnal and professionnal life.
 
 ![cover](images/readmeImg.png)
 
-On the branch main ,the home page is not concerned by this technic. Besides the javascript emphasize, css technics such as flex/box are also being highlighted.
+This project consists of putting in work javascript technich which provides and displays html file content dynamically.
+
+On the branch v2 ,the home page is not concerned by this technic.
+ Besides the javascript emphasize, css technics such as flex/box are also being highlighted.
