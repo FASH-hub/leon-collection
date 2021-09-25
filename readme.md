@@ -2,6 +2,11 @@
 
 ## Top Ten
 
-![cover](images/readme.png)
+My favorite ten sport celebrities from all over the world. 
+Here are their names, nationality, their personnal and professionnal life. 
 
-This project consists of putting in work the javascript dynamic tehnic, which provides html file and displays it's content dynamically. For this project, the home page is not concerned. Besides the javascript emphasize, css technics such as flex/box are also being highlighted.
+![cover](images/readmeImg.png)
+
+This project consists of putting in work the javascript dynamic tehnic, which provides html file and displays it's content dynamically. 
+
+On the branch main ,the home page is not concerned by this technic. Besides the javascript emphasize, css technics such as flex/box are also being highlighted.
