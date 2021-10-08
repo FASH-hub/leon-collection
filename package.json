@@ -1,0 +1,24 @@
+{
+  "name": "leon-collection",
+  "version": "1.0.0",
+  "description": "## Top Ten My favorite ten sport celebrities from all over the world.  Here are their names, nationality, their personnal and professionnal life.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FASH-hub/leon-collection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FASH-hub/leon-collection/issues"
+  },
+  "homepage": "https://github.com/FASH-hub/leon-collection#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  }
+}
