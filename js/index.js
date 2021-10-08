@@ -20,7 +20,7 @@ function accesToCard() {
         let birthDetails = document.createTextNode(' Was born on ' + elt.birthDate + ' in ' +
             elt.birthPlace + ' , ' + elt.country + '. ');
         let family = document.createTextNode(elt.name + ' is ' + elt.spouse +
-            'and has' + elt.children + '. ');
+            ' and has ' + elt.children + '. ');
         let profession = document.createTextNode(elt.name + ' competes in ' +
             elt.competitionLeague + ' for ' + elt.Team + ' and has ' + elt.championships);
         para.append(birthDetails, family, profession);
