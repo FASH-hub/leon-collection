@@ -456,14 +456,14 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"23obh":[function(require,module,exports) {
 var _display = require("./display");
-_display.cardDisplay(sport);
+_display.cardsDisplay(sport);
 
 },{"./display":"3DZo8"}],"3DZo8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "cardDisplay", ()=>cardDisplay
+parcelHelpers.export(exports, "cardsDisplay", ()=>cardsDisplay
 );
-let cardDisplay = (sport)=>{
+let cardsDisplay = (sport)=>{
     let div = document.querySelector('div');
     let main = document.createElement('main');
     //loops on object "sport" containing sport celebreties.
@@ -488,6 +488,7 @@ let cardDisplay = (sport)=>{
         aside.appendChild(asideLink);
         section.appendChild(aside);
         main.appendChild(section);
+        console.log(main);
     }
     div.appendChild(main);
 };

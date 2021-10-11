@@ -1,4 +1,8 @@
-export let cardDisplay = (sport) => {
+/**
+ * Displays the collection's elements (celebrities)
+ * @param {sport} collection of different celebrities 
+ */
+export let cardsDisplay = (sport) => {
     let div = document.querySelector('div');
     let main = document.createElement('main');
 
@@ -33,6 +37,7 @@ export let cardDisplay = (sport) => {
         section.appendChild(aside);
 
         main.appendChild(section);
+        console.log(main);
     }
     div.appendChild(main);
 }
