@@ -1,2 +1,2 @@
-import {cardsDisplay}from "./display"
+import { cardsDisplay } from "./display"
 cardsDisplay(sport);

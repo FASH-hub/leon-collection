@@ -19,7 +19,7 @@
     "source": "src/index.html",
     "scripts": {
         "start": "parcel",
-        "build": "rm -rf dist/* && parcel build --public-url ./",
+        "build": "parcel build",
         "deploy": "gh-pages -d dist"
     }
 }

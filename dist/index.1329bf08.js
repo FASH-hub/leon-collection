@@ -625,7 +625,7 @@ const sport = [
     },
     {
         name: 'Zinedine Zidane',
-        picture: 'images/zidane.jpg',
+        picture: 'images/zizou.jpg',
         biography: 'https://en.wikipedia.org/wiki/Zinedine_Zidane',
         gender: 'H',
         birthDate: '23/06/1972',
@@ -640,7 +640,7 @@ const sport = [
     },
     {
         name: 'Ronaldo Luís Nazário de Lima',
-        picture: 'images/fenomeno.jpg',
+        picture: 'images/femeno.jpg',
         biography: 'https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)',
         gender: 'H',
         birthDate: '18/09/1976',
