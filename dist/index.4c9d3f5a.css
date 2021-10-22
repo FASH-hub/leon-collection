@@ -1,0 +1,61 @@
+body {
+    background-color: bisque;
+    color: cornflowerblue;
+}
+
+h1 {
+    font-family: 'Courgette';
+    font-weight: bold;
+    font-size: 200%;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    padding: 5%;
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        display: block;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    color: rgba(0, 137, 139, 0.468);
+}
+
+img {
+
+    width: 400px;
+    height: 400px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    color: bisque;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+}
+/*# sourceMappingURL=index.4c9d3f5a.css.map */

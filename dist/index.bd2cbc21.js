@@ -1,19 +1,7 @@
-import Lewis from "../images/Lewis.jpg"
-import bolt from "../images/bolt.jpg"
-import bryant from "../images/bryant.jpg"
-import cr7 from "../images/cr7.jpg"
-import elfenomeno from "../images/elfenomeno.jpg"
-import federer from "../images/federer.jpg"
-import lebron from "../images/lebron.jpg"
-import williams from "../images/williams.webp"
-import lionel from "../images/lionel.jpeg"
-import zizou from "../images/zizou.jpg"
-import nadal from "../images/nadal.jpg"
-import ronaldinho from "../images/ronaldinho.jpg"
-
-export const sport = [{
+const sport = [
+    {
         name: "Lewis Hamilton",
-        picture: Lewis,
+        picture: 'src/images/Lewis.jpg',
         biography: 'https://en.wikipedia.org/wiki/Lewis_Hamilton',
         gender: 'H',
         birthDate: '07/01/1985',
@@ -24,44 +12,47 @@ export const sport = [{
         competitionLeague: ' drives Formula1',
         Team: 'Merceds AMG Patronas',
         championships: ' 7 championships ',
-        retired: false,
+        retired: false
     },
     {
         name: "Kobe Bryant",
-        picture: bryant,
+        picture: 'src/images/bryant.jpg',
         biography: 'https://en.wikipedia.org/wiki/Kobe_Bryant',
         gender: 'H',
         birthDate: '23/08/1978',
         birthPlace: 'Philadelphie, Pennsylvanie',
         country: 'United States of America',
         spouse: " was married with Vanessa Bryant",
-        children: ' four children : ' + [' Gianna Maria-Onore Bryant', ' Natalia Diamante Bryant ',
-            ' Bianka Bella Bryant ', ' Capri Kobe Bryant '
-        ],
+        children: " four children :  Gianna Maria-Onore Bryant Natalia Diamante Bryant , Bianka Bella Bryant , Capri Kobe Bryant ,",
         competitionLeague: ' played in NBA',
         Team: ' Los Angeles Lakers ',
         championships: ' 5 NBA championships ',
-        retired: true,
-
+        retired: true
     },
     {
         name: 'Cristiano Ronaldo',
-        picture: cr7,
+        picture: 'src/images/cr7.jpg',
         biography: 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo',
         gender: 'H',
         birthDate: '05/02/1985',
         birthPlace: 'Hospital Dr. Nélio Mendonça, Funchal',
         country: 'Portugal',
         spouse: ' in relation with Georgina Rodriguez',
-        children: ' four children : ' + [' Cristiano Jr', ' Alana Martina dos Santos Aveiro ', ' Eva Maria Dos Santos ', ' Mateo Ronaldo '],
+        children: " four children :  Cristiano Jr Alana Martina dos Santos Aveiro , Eva Maria Dos Santos , Mateo Ronaldo ,",
         competitionLeague: 'plays in Premier League',
         Team: ' Manchester United ',
-        championships: [' 5 golden ball ', ' 6 championships ', ' 5 uefa cl ', ' 1 european champion ', ' 1 european nations league champion '],
-        retired: false,
+        championships: [
+            ' 5 golden ball ',
+            ' 6 championships ',
+            ' 5 uefa cl ',
+            ' 1 european champion ',
+            ' 1 european nations league champion '
+        ],
+        retired: false
     },
     {
         name: 'Serena Williams',
-        picture: williams,
+        picture: 'src/images/williams.webp',
         biography: 'https://en.wikipedia.org/wiki/Serena_Williams',
         gender: 'F',
         birthDate: '26/09/1981',
@@ -72,76 +63,76 @@ export const sport = [{
         competitionLeague: 'plays Tennis',
         Team: ' herself ',
         championships: '23 Grand Chelem',
-        retired: false,
-
+        retired: false
     },
     {
         name: 'Lionel Messi',
-        picture: lionel,
+        picture: 'src/images/lionel.jpeg',
         biography: 'https://en.wikipedia.org/wiki/Lionel_Messi',
         gender: 'H',
         birthDate: '24/06/1987',
         birthPlace: ' Rosario ',
         country: ' Argentina ',
         spouse: ' married with Antonella Roccuzzo ',
-        children: ' three children : ' + [' Mateo Messi Roccuzzo ', ' Ciro Messi Roccuzzo ', ' Thiago Messi'],
+        children: " three children :  Mateo Messi Roccuzzo  Ciro Messi Roccuzzo , Thiago Messi,",
         competitionLeague: ' plays in Ligue 1 ',
         Team: ' Paris Saint Germain ',
-        championships: [' 6 golden balls ', ' 10 championships ', ' 4 uefa cl ', ' 1 South American championship '],
-        retired: false,
-
+        championships: [
+            ' 6 golden balls ',
+            ' 10 championships ',
+            ' 4 uefa cl ',
+            ' 1 South American championship '
+        ],
+        retired: false
     },
     {
         name: 'Usain Bolt',
-        picture: bolt,
+        picture: 'src/images/bolt.jpg',
         biography: 'https://en.wikipedia.org/wiki/Usain_Bolt',
         gender: 'H',
         birthDate: '21/08/1986',
         birthPlace: 'Sherwood Content',
         country: 'Jamaica .',
         spouse: ' in relation with Kasi Bennett',
-        children: ' three children : ' + ['Olympia Lightning Bolt', 'Thunder Bolt', 'Saint Leo Bolt'],
+        children: " three children : Olympia Lightning BoltThunder Bolt,Saint Leo Bolt,",
         competitionLeague: ' did Athletisme, sprint',
         Team: 'for himself and Jamaican National Team',
         championships: '8 olympic gold medals',
-        retired: true,
-
+        retired: true
     },
     {
         name: 'Roger Federer',
-        picture: federer,
+        picture: 'src/images/federer.jpg',
         biography: 'https://en.wikipedia.org/wiki/Roger_Federer',
         gender: 'H',
         birthDate: '21/08/1981',
         birthPlace: 'Bâle',
         country: 'Switzeland',
         spouse: ' married with Miroslava Vavrinec ',
-        children: ' four children : ' + [' Myla Rose Federer ', ' Lennart Federer ', ' Leo Federer', ' Charlene Riva Federer '],
+        children: " four children :  Myla Rose Federer  Lennart Federer , Leo Federer, Charlene Riva Federer ,",
         competitionLeague: ' plays Tennis',
         Team: 'himself',
         championships: ' 20 Grand Chelem ',
-        retired: false,
-
+        retired: false
     },
     {
         name: "Lebron James",
-        picture: lebron,
+        picture: 'src/images/lebron.jpg',
         biography: 'https://en.wikipedia.org/wiki/LeBron_James',
         gender: 'H',
         birthDate: '30/12/1984',
         birthPlace: ' Akron, Ohio',
         country: 'United States of America',
         spouse: " married with Savannah James ",
-        children: ' three children : ' + [' LeBron James Jr.', 'Bryce Maximus James', 'Zhuri James'],
+        children: " three children :  LeBron James Jr.Bryce Maximus James,Zhuri James,",
         competitionLeague: ' plays in NBA',
         Team: 'Los Angeles Lakers',
         championships: '4 NBA chamionships',
-        retired: false,
-
+        retired: false
     },
     {
         name: 'Ronaldinho',
-        picture: ronaldinho,
+        picture: 'src/images/ronaldinho.jpg',
         biography: 'https://en.wikipedia.org/wiki/Ronaldinho',
         gender: 'H',
         birthDate: '21/03/1980',
@@ -151,13 +142,18 @@ export const sport = [{
         children: ' one child João de Assis Moreira',
         competitionLeague: ' played in Ligue 1 and La Liga ',
         Team: 'Paris Saint Germain and Fc Barcelona',
-        championships: ['1 golden ball ', ' 2 championships ', ' 2 uefa cl ', ' 1 South American championship ', ' and 1 world cup champion'],
-        retired: true,
-
+        championships: [
+            '1 golden ball ',
+            ' 2 championships ',
+            ' 2 uefa cl ',
+            ' 1 South American championship ',
+            ' and 1 world cup champion'
+        ],
+        retired: true
     },
     {
         name: 'Rafael Nadal',
-        picture: nadal,
+        picture: 'src/images/nadal.jpg',
         biography: 'https://en.wikipedia.org/wiki/Rafael_Nadal',
         gender: 'H',
         birthDate: '03/06/1986',
@@ -168,43 +164,38 @@ export const sport = [{
         competitionLeague: 'plays Tennis',
         Team: 'himself',
         championships: '20 Grand Chelem',
-        retired: false,
-
+        retired: false
     },
     {
         name: 'Zinedine Zidane',
-        picture: zizou,
+        picture: 'src/images/zidane.jpg',
         biography: 'https://en.wikipedia.org/wiki/Zinedine_Zidane',
         gender: 'H',
         birthDate: '23/06/1972',
         birthPlace: 'Marseille',
         country: 'France',
         spouse: ' married with Véronique Fernández',
-        children: ' four children : ' + [' Enzo Zidane Fernández ', 'Luca Zidane Fernández',
-            'Theo Zidane Fernández', 'Elyaz Zidane Fernández '
-        ],
+        children: " four children :  Enzo Zidane Fern\xe1ndez Luca Zidane Fern\xe1ndez,Theo Zidane Fern\xe1ndez,Elyaz Zidane Fern\xe1ndez ,",
         competitionLeague: ' played in Ligue 1, Serie A and La Liga ',
         Team: ' Cannes, Juventus, Real Madrid and for Les Bleus (French National Team) ',
         championships: ' won multiple titles as you will discover in his full biography ',
-        retired: true,
-
+        retired: true
     },
     {
         name: 'Ronaldo Luís Nazário de Lima',
-        picture: elfenomeno,
+        picture: 'src/images/fenomeno.jpg',
         biography: 'https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)',
         gender: 'H',
         birthDate: '18/09/1976',
         birthPlace: 'Rio de Janeiro',
         country: 'Brazil',
         spouse: ' not married ',
-        children: ' four children : ' + [' Ronald Nazário de Lima ', ' Alexander Nazário de Lima ',
-            ' Maria Sofia Nazário de Lima ', ' Maria Alice Nazário de Lima '
-        ],
+        children: " four children :  Ronald Naz\xe1rio de Lima  Alexander Naz\xe1rio de Lima , Maria Sofia Naz\xe1rio de Lima , Maria Alice Naz\xe1rio de Lima ,",
         competitionLeague: 'played in La Liga, Serie A and Eredivisie ',
         Team: ' Barcelona, Inter Milan, Real Madrid and for La Seleção (Brazilian National Team) ',
         championships: ' won multiple titles as you will discover in his full biography ',
-        retired: true,
-
-    },
+        retired: true
+    }, 
 ];
+
+//# sourceMappingURL=index.bd2cbc21.js.map
