@@ -4,7 +4,7 @@
 My favorite twelve sport celebrities from all over the world. 
 Here are their names, nationality, their personnal and professionnal life.
 
-![cover](dist/images/readmeImg.png)
+Check how it displays on github pages.
 
 This project consists of putting in work javascript technic which provides and displays html file content dynamically. This version is build by parcel. 
 
